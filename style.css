@@ -1,0 +1,124 @@
+.banner {
+    background-color: #ef4848;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.botones_compra {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.botones_compra:hover {
+    transform: scale(1.1);
+}
+
+.noticia {
+    background-color: #292828;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.noticia-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.categoria-noticia {
+    background-color: #0056b3;
+    color: white;
+    padding: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.noticia:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.intro-text {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.titulo-noticia {
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.titulo-noticia:hover {
+    color: #2683e6;
+}
+
+
+/*CONTACTANOS*/
+
+.contact-section {
+    padding: 30px 0;
+}
+
+.form-control {
+    background-color: #f9f9f9;
+    /* Fondo claro */
+    border: 1px solid #a6abaf;
+    /* Borde visible */
+    color: #000;
+    /* Color de texto */
+    border-radius: 20px;
+    /* Bordes redondeados */
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.btn-custom {
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #555;
+}
+
+.contact-info h5 {
+    font-weight: bold;
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info p,
+.contact-info a {
+    margin: 0;
+}
+
+.logo img {
+    max-width: 150px;
+    border-radius: 50%;
+}
